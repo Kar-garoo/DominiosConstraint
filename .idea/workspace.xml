@@ -55,8 +55,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="330">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="340">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -70,9 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Forum.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Regular.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Admin.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Forum.groovy" />
       </list>
     </option>
   </component>
@@ -643,7 +643,7 @@
       <updated>1428719555645</updated>
       <workItem from="1428719561652" duration="372000" />
       <workItem from="1428768079672" duration="523000" />
-      <workItem from="1428782896693" duration="3899000" />
+      <workItem from="1428782896693" duration="5177000" />
     </task>
     <task id="LOCAL-00001" summary="Creada clase Regular sin restricciones">
       <created>1428798656244</created>
@@ -651,11 +651,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428798656244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creada clase Forum con todas las restricciones">
+      <created>1428799431303</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1428799431303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4794000" />
+    <option name="totallyTimeSpent" value="6072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -716,7 +722,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Creada clase Regular sin restricciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creada clase Regular sin restricciones" />
+    <MESSAGE value="Creada clase Forum con todas las restricciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creada clase Forum con todas las restricciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -768,8 +775,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3090909" vertical-offset="0" max-vertical-offset="330">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="340">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
