@@ -2,6 +2,405 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cabce90-e576-4abc-a893-f96980f5c01c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractAssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/AbstractFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator$GrailsControllerType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/AbstractGrailsTemplateGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AbstractProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Admin$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Admin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/AlreadyGzippedException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_compile_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_getAllAssets_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure5_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler$_removeDeletedFiles_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetCompiler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_assetForFileName_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_assetForFileName_closure1_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_concat_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_concat_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_fileNameWithoutExtensionFromArtefact_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper$_getPossibleFileSpecs_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetMethodTagLib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineBootStrap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetPipelineFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure1_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2_closure5_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin$_closure2_closure6_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetPipelineGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetProcessorService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetResourceLocator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/AssetUrlMappings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure1_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure2_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure6_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib$_paramsToHtmlAttr_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/AssetsTagLib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/BlockingCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheBeanPostProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$CacheConfigGrailsClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfigArtefactHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheEvict.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/CacheExpressionRootObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1_closure6_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1_closure6_closure8_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure1_closure7_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure2_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin$_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager$_findCache_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CacheManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/CacheOperationContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CachePut.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/compiler/CacheTransformation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/Cacheable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/CachingLinkGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy$_appendAttrs_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy$_appendWithIndent_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/util/ClassUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1_closure4_closure5_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader$_sortConfigs_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/ContentCacheParameters.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile$_directiveForLine_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/CssAssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor$_process_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssMinifyPostProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor$_process_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor$_relativePathToBaseFile_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor$_relativePathToBaseFile_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor$_relativePath_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor$_relativePath_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/CssProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator$CacheKey.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CustomCacheKeyGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure4_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure5_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3_closure6_closure9_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig$_run_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DefaultGrailsTemplateGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_findDirectives_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_isFileInTree_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_recursiveTreeAppend_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_relativePath_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_relativePath_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_requireFileDirective_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_requireFullTreeDirective_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor$_requireTreeDirective_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/DirectiveProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/DomainClassPropertyComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_expandExpressions_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_extractZipFile_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_handleIncludedChangeLog_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_processIncludeAll_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_processProperty_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_processRollback_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder$_setPropertiesFromAttributes_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/ExpressionEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_addEventHookToBinding_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createEventListener_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_createExecutionContext_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_findSystemClasspathJars_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer$_startSecure_closure6_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/GenericResponseWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn$_isIdentityColumn_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createIdentifierGenerator_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createSnapshot_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_createSnapshot_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure3_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator$_filterSnapshot_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsAnnotationCacheOperationSource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService$_clearAllCaches_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser$_setChangelogProperties_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsConcurrentMapCacheManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/GrailsTemplateGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsValueWrapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/Header$Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/Header.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/Hibernate4GrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/HtmlAssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/HttpDateFormatter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer$_preStart_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig$_init_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig$_init_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources$_run_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources$_run_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider$_doRemoteFunction_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure2_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService$_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure1_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib$_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin$_closure2_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin$_closure2_closure3_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile$_directiveForLine_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/JsAssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/LinkGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/ManifestAssetFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner$_autoRun_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner$_autoRun_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner$_runMigrations_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_getDataSourceConfigs_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_getDatabase_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_getDatabases_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure16.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure17.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure18.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure18_closure20.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils$_removeIgnoredObjects_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer$_hasForeignKeyConstraintChange_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/NoOpFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter$CacheStatus.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/PageFragmentCachingFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/PageInfo$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/PageInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/ParentDelegatingClassLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/Processor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Regular$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Regular.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldedGroovyPageView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure1_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_configureScaffoldingController_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin$_getScaffoldedActions_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ScaffoldingGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/view/ScaffoldingViewResolver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils$_appendToChangelog_closure2_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils$_executeAndWrite_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils$_generatePreviousChangesetSql_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SerializableByteArrayOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/SerializableCookie.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SerializableOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/scaffolding/SimpleDomainClassPropertyComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator$SimpleKey.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/SimpleKeyGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter$_writeCustomHTML_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/Timer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatKillSwitch.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor$_parseOptions_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor$_parseOptions_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/processors/UglifyJsProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1_closure2_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/web/filter/WebKeyGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure2_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure2_closure8_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure3_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure4_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure5_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure5_closure12_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure6_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin$_closure1_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Forum.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/dominiosconstraint/ForumSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Regular.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/dominiosconstraint/RegularSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DominiosConstraint.iws" />
@@ -224,6 +623,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager" selected="Grails.Grails:DominiosConstraint">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -643,7 +1047,7 @@
       <updated>1428719555645</updated>
       <workItem from="1428719561652" duration="372000" />
       <workItem from="1428768079672" duration="523000" />
-      <workItem from="1428782896693" duration="6787000" />
+      <workItem from="1428782896693" duration="6872000" />
     </task>
     <task id="LOCAL-00001" summary="Creada clase Regular sin restricciones">
       <created>1428798656244</created>
@@ -663,11 +1067,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428800746268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Terminadas las dos clases con sus respectivas relaciones y la extensión comentada, por falta de la clase User!">
+      <created>1428804035565</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1428804035565</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7682000" />
+    <option name="totallyTimeSpent" value="7767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -688,6 +1098,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -695,6 +1106,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -706,9 +1118,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -730,7 +1140,8 @@
     <MESSAGE value="Creada clase Regular sin restricciones" />
     <MESSAGE value="Creada clase Forum con todas las restricciones" />
     <MESSAGE value="restricciones de la clase Forum, faltando una. Y de la clase Regular ya están todas" />
-    <option name="LAST_COMMIT_MESSAGE" value="restricciones de la clase Forum, faltando una. Y de la clase Regular ya están todas" />
+    <MESSAGE value="Terminadas las dos clases con sus respectivas relaciones y la extensión comentada, por falta de la clase User!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminadas las dos clases con sus respectivas relaciones y la extensión comentada, por falta de la clase User!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
