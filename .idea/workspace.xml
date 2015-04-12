@@ -1,12 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cabce90-e576-4abc-a893-f96980f5c01c" name="Default" comment="restricción de la fecha">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dominiosconstraint/Admin.class" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Admin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum.class" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/Forum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Forum.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Forum.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="2cabce90-e576-4abc-a893-f96980f5c01c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_$tt__delete_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_$tt__save_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_$tt__update_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_create_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_delete_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_edit_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_index_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_notFound_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_notFound_closure8_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_notFound_closure8_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_save_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_show_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__delete_closure11_closure18.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__delete_closure11_closure19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__save_closure9_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__save_closure9_closure15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__update_closure10_closure16.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_tt__update_closure10_closure17.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController$_update_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/AdminController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_$tt__delete_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_$tt__save_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_$tt__update_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_create_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_delete_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_edit_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_index_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_notFound_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_notFound_closure8_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_notFound_closure8_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_save_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_show_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__delete_closure11_closure18.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__delete_closure11_closure19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__save_closure9_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__save_closure9_closure15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__update_closure10_closure16.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_tt__update_closure10_closure17.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController$_update_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/ForumController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/GenerateController$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/GenerateController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_$tt__delete_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_$tt__save_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_$tt__update_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_create_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_delete_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_edit_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_index_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_notFound_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_notFound_closure8_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_notFound_closure8_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_save_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_show_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__delete_closure11_closure18.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__delete_closure11_closure19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__save_closure9_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__save_closure9_closure15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__update_closure10_closure16.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_tt__update_closure10_closure17.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController$_update_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dominiosconstraint/RegularController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure2_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/1e21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/1e21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/dominiosconstraint/AdminController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/dominiosconstraint/AdminControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/dominiosconstraint/ForumController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/dominiosconstraint/ForumControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/README.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/README.org" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/dominiosconstraint/RegularController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/dominiosconstraint/RegularControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/array1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/array1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/array2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/array2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/array3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/array3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/array4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/array4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/assignment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/assignment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/beautify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/c.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/concatstring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/concatstring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/lib/consolidator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/const.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/const.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/div-with-regexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/div-with-regexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/docstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/empty-blocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/empty-blocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/WEB-INF/tld/fmt.tld" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/forstatement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/forstatement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/tmp/hoist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/if-not.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/if-not.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/if.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/if.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/ifreturn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/ifreturn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/ifreturn2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/ifreturn2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/tmp/instrument.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue10.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue11.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue11.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue13.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue13.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue14.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue14.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue16.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue16.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue17.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue17.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue20.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue20.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue25.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue27.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue27.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue278.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue278.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue29.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue29.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue30.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue30.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue34.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue34.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue349.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue349.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue353.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue353.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue372.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue372.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue471.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue471.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue48.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue48.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue50.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue50.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue53.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue53.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue54.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue54.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue68.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue68.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue69.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue69.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issue9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issue9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/issues222_324.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/issues222_324.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/mangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/mangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_cs_CZ.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_da.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_de.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_es.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_it.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_ja.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_nb.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_nl.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pl.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pt_BR.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_pt_PT.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_ru.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_sv.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_th.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/null_string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/null_string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/lib/parse-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/lib/process.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/lib/squeeze-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/strict-equals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/strict-equals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/tmp/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/testconsolidator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/testparser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/uglify-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/bin/uglifyjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/var.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/var.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/expected/with.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/resources/uglifyjs/test/unit/compress/test/with.js" />
+      <change type="DELETED" beforePath="C:\Users\Daniel\IdeaProjects\DominiosConstraint\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="DominiosConstraint.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +247,7 @@
       <file leaf-file-name="Admin.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Admin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4450262" vertical-offset="0" max-vertical-offset="382">
+            <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="360">
               <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding />
             </state>
@@ -257,6 +468,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dominiosconstraint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DominiosConstraint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DominiosConstraint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -709,7 +934,7 @@
       <workItem from="1428719561652" duration="372000" />
       <workItem from="1428768079672" duration="523000" />
       <workItem from="1428782896693" duration="12961000" />
-      <workItem from="1428849069581" duration="7635000" />
+      <workItem from="1428849069581" duration="8065000" />
     </task>
     <task id="LOCAL-00001" summary="Creada clase Regular sin restricciones">
       <created>1428798656244</created>
@@ -759,11 +984,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428856163228</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalizada, Admin, Forum y Regular sin errores">
+      <created>1428857649831</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1428857649831</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21491000" />
+    <option name="totallyTimeSpent" value="21921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -773,7 +1004,7 @@
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,12 +1022,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29248366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29248366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -830,7 +1061,8 @@
     <MESSAGE value="Faltaban dos restricciones! Yaaa. nullable: false a la clase Forum" />
     <MESSAGE value="corrección de un error de Sergio:  tenía en la restricción &quot;raiting&quot; y debe ser rating" />
     <MESSAGE value="Muchas modificciones, en especial ao de Sergio, el tipo Double" />
-    <option name="LAST_COMMIT_MESSAGE" value="Muchas modificciones, en especial ao de Sergio, el tipo Double" />
+    <MESSAGE value="Finalizada, Admin, Forum y Regular sin errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizada, Admin, Forum y Regular sin errores" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -930,7 +1162,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/dominiosconstraint/Admin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4450262" vertical-offset="0" max-vertical-offset="382">
+        <state vertical-scroll-proportion="0.4722222" vertical-offset="0" max-vertical-offset="360">
           <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding />
         </state>
