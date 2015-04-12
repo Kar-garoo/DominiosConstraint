@@ -9,7 +9,7 @@ class Post {
 
 
     static constraints = {
-        topic(minSize: 3, maxSize: 50, nullable: false)
+        topic(size: 3..50, blank: false, nullable: false)
         dateCreated(min: new Date(), nullable: false)
         lastUpdate(min: new Date(), nullable: false)
     }
