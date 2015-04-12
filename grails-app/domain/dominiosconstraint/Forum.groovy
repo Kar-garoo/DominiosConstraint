@@ -7,9 +7,8 @@ class Forum {
     String category
 
     static constraints = {
-        name(min: 3, max: 20, unique: true, nullable: false)
-        category(min: 3, max: 15, nullable: false)
-        dateCreated(max: new Date(), nullable: false)
+        name(minSize: 3, maxSize: 20, unique: true, nullable: false)
+        category(minSize: 3, maxSize: 15, nullable: false)
+        dateCreated(min: new Date(), nullable: false)
     }
-
 }
