@@ -9,6 +9,6 @@ class Admin /*extends User*/{
     static constraints = {
 
         level(min: 1,max: 5,nullable: false)
-        raiting(min: 0,max: 100,nullable: false)
+        rating(min: 0,max: 100,nullable: false)
     }
 }

@@ -11,4 +11,5 @@ class Forum {
         category(min: 3, max: 15, nullable: false)
         dateCreated(max: new Date(), nullable: false)
     }
+
 }
