@@ -8,6 +8,6 @@ class File {
     static constraints = {
         fileType(matches: ".+[/]+.+")
         content()
-        size(range:0..10)
+        size(range:0..10485760)
     }
 }
