@@ -1,6 +1,6 @@
 package dominiosconstraint
 
-class Admin /*extends User*/{
+class Admin extends User{
 
     Integer level
     Double rating

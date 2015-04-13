@@ -1,6 +1,6 @@
 package dominiosconstraint
 
-class Regular /*extends User*/{
+class Regular extends User{
 
     //Post post //esto es para el "has" de la relacion de clase Regular con Post
     Integer postViews
