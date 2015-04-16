@@ -15,5 +15,8 @@ class User {
         password(blank:false, minSize: 8, matches: /[a-z]+[A-Z]+[0-9]+/)
         //password(blank:false, minSize: 8, matches: /[[a-z]+[A-Z]+[0-9]+]+/)
     }
+    static mapping = {
+        tablePerHierarchy true
+    }
 
 }
