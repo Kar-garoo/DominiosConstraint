@@ -12,7 +12,7 @@ class Forum {
     static constraints = {
         name(minSize: 3, maxSize: 20, unique: true, nullable: false)
         category(minSize: 3, maxSize: 15, nullable: false)
-        dateCreated(max: new Date(), nullable: false)
+        dateCreated(new Date(), nullable: false)
     }
 
 }
