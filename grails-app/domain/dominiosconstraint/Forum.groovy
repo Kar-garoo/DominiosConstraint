@@ -2,9 +2,12 @@ package dominiosconstraint
 
 class Forum {
 
+
     String name
-    Date dateCreated
+    Date dateCreated = null
     String category
+
+    Admin admin
 
     static belongsTo = [admin:Admin]
     static hasMany = [post:Post]
@@ -12,15 +15,12 @@ class Forum {
     static constraints = {
         name(minSize: 3, maxSize: 20, unique: true, nullable: false)
         category(minSize: 3, maxSize: 15, nullable: false)
-        dateCreated(nullable: false)
+        //dateCreated(min: new Date(), nullable: false)
     }
 
-    def beforeValidate() {
-        dateCreated = new Date();
+    def beforeInsert() {
+        if (dateCreated == null) {
+            dateCreated = new Date()
+        }
     }
-
-    String toString(){
-        "${name category}"
-    }
-
 }
