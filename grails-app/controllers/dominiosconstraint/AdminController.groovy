@@ -52,7 +52,7 @@ class AdminController {
     }
 
     def delete(){
-        def deleteAdmin = Admin.findById(session.id)
+        def deleteAdmin = Admin.findById(params.id)
         if(!deleteAdmin.delete(flush: true)){
             redirect(action: 'index')
         }else{

@@ -16,7 +16,7 @@
 <ul>
     <g:each in="${dominiosconstraint.Admin.list()}">
         <li>
-            ${it.name} <g:link action="update" id="${it.id}">Update ${it.id}</g:link>
+            ${it.name} <g:link action="update" id="${it.id}">Update ${it.id}</g:link> <g:link action="delete" id="${it.id}">Delete ${it.id}</g:link>
         </li>
     </g:each>
 </ul>
