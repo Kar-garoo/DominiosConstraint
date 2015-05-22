@@ -6,9 +6,7 @@ class Forum {
     String name
     Date dateCreated = null
     String category
-
     Admin admin
-
     static belongsTo = [admin:Admin]
     static hasMany = [post:Post]
 

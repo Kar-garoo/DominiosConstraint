@@ -1,105 +1,64 @@
 package dominiosconstraint
 
-
-
-import static org.springframework.http.HttpStatus.*
-import grails.transaction.Transactional
-
-@Transactional(readOnly = true)
 class AdminController {
-    static scaffold = true
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Admin.list(params), model:[adminInstanceCount: Admin.count()]
+    def index(){
+        render(view:'read')
+    }
+    def read(){
+        ['adminInstance':Admin.list()]
     }
 
-    def show(Admin adminInstance) {
-        respond adminInstance
+    def create(){
+
     }
 
-    def create() {
-        respond new Admin(params)
-    }
+    def createLogic(){
 
-    @Transactional
-    def save(Admin adminInstance) {
-        if (adminInstance == null) {
-            notFound()
+        def newAdmin = new Admin(params)
+
+        if(!newAdmin.save(flush: true)){
+            render(view:'create',model:[admin:newAdmin])
             return
+        }else{
+            render(view: 'read')
+            print(eachError(bean: "${newAdmin}"))
         }
+    }
 
-        if (adminInstance.hasErrors()) {
-            respond adminInstance.errors, view:'create'
+    def update(){
+        def adminUpdate = Admin.findById(params.id)
+        [adminUpdate:adminUpdate]
+    }
+
+    def updateLogic(){
+        def adminUpdate = Admin.findById(params.id)
+        adminUpdate.name = params.name
+        adminUpdate.lastname = params.lastname
+        adminUpdate.age = Integer.parseInt(params.age)
+        adminUpdate.username = params.username
+        adminUpdate.password = params.password
+        adminUpdate.level = Integer.parseInt(params.level)
+        adminUpdate.rating = Integer.parseInt(params.rating)
+        adminUpdate.forums = params.forums
+        if(!adminUpdate.save(flush: true)){
+            render(view:'update',model:[admin:adminUpdate])
             return
-        }
+        }else{
+            render(view: 'read')
+            print(eachError(bean: "${adminUpdate}"))
+    }
 
-        adminInstance.save flush:true
+    }
 
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'admin.label', default: 'Admin'), adminInstance.id])
-                redirect adminInstance
-            }
-            '*' { respond adminInstance, [status: CREATED] }
+    def delete(){
+        def deleteAdmin = Admin.findById(session.id)
+        if(!deleteAdmin.delete(flush: true)){
+            redirect(action: 'index')
+        }else{
+            redirect(action: 'index')
+            print(eachError(bean: "${deleteAdmin}"))
         }
     }
 
-    def edit(Admin adminInstance) {
-        respond adminInstance
-    }
-
-    @Transactional
-    def update(Admin adminInstance) {
-        if (adminInstance == null) {
-            notFound()
-            return
-        }
-
-        if (adminInstance.hasErrors()) {
-            respond adminInstance.errors, view:'edit'
-            return
-        }
-
-        adminInstance.save flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Admin.label', default: 'Admin'), adminInstance.id])
-                redirect adminInstance
-            }
-            '*'{ respond adminInstance, [status: OK] }
-        }
-    }
-
-    @Transactional
-    def delete(Admin adminInstance) {
-
-        if (adminInstance == null) {
-            notFound()
-            return
-        }
-
-        adminInstance.delete flush:true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Admin.label', default: 'Admin'), adminInstance.id])
-                redirect action:"index", method:"GET"
-            }
-            '*'{ render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'admin.label', default: 'Admin'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*'{ render status: NOT_FOUND }
-        }
-    }
 }

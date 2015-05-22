@@ -1,7 +1,8 @@
 package dominiosconstraint
 
 class ForumController {
-
+    static scaffold = true;
+/*
     def index(){
         render(view:'read')
     }
@@ -32,4 +33,5 @@ class ForumController {
             print(eachError(bean: "${newForum}"))
         }
     }
+    */
 }
