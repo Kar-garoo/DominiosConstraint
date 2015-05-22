@@ -1,104 +1,69 @@
 package dominiosconstraint
 
 
-import static org.springframework.http.HttpStatus.*
-import grails.transaction.Transactional
-
-@Transactional(readOnly = true)
 class RegularController {
-    static scaffold = true
+    def show(){
+        def regularShow = Regular.findById(params.id)
+        [regularShow:regularShow]
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Regular.list(params), model: [regularInstanceCount: Regular.count()]
+    }
+    def index(){
+        render(view:'read')
+    }
+    def read(){
+        ['regularInstance':Regular.list()]
     }
 
-    def show(Regular regularInstance) {
-        respond regularInstance
+    def create(){
+
     }
 
-    def create() {
-        respond new Regular(params)
-    }
+    def createLogic(){
 
-    @Transactional
-    def save(Regular regularInstance) {
-        if (regularInstance == null) {
-            notFound()
+        def newRegular = new Regular(params)
+
+        if(!newRegular.save(flush: true)){
+            render(view:'create',model:[regular:newRegular])
             return
-        }
-
-        if (regularInstance.hasErrors()) {
-            respond regularInstance.errors, view: 'create'
-            return
-        }
-
-        regularInstance.save flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'regular.label', default: 'Regular'), regularInstance.id])
-                redirect regularInstance
-            }
-            '*' { respond regularInstance, [status: CREATED] }
+        }else{
+            render(view: 'read')
+            print(eachError(bean: "${newRegular}"))
         }
     }
 
-    def edit(Regular regularInstance) {
-        respond regularInstance
+    def update(){
+        def regularUpdate = Regular.findById(params.id)
+        [regularUpdate:regularUpdate]
     }
 
-    @Transactional
-    def update(Regular regularInstance) {
-        if (regularInstance == null) {
-            notFound()
+    def updateLogic(){
+        def regularUpdate = Regular.findById(params.id)
+        regularUpdate.name = params.name
+        regularUpdate.lastname = params.lastname
+        regularUpdate.age = Integer.parseInt(params.age)
+        regularUpdate.username = params.username
+        regularUpdate.password = params.password
+        regularUpdate.postViews = Integer.parseInt(params.postViews)
+        regularUpdate.strikesNumber = Integer.parseInt(params.strikesNumber)
+        regularUpdate.startNumber = Integer.parseInt(params.startNumber)
+        regularUpdate.post=Post.findById(params.post)
+        if(!regularUpdate.save(flush: true)){
+            render(view:'update',model:[regular:regularUpdate])
             return
+        }else{
+            render(view: 'read')
+            print(eachError(bean: "${regularUpdate}"))
         }
 
-        if (regularInstance.hasErrors()) {
-            respond regularInstance.errors, view: 'edit'
-            return
-        }
-
-        regularInstance.save flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'Regular.label', default: 'Regular'), regularInstance.id])
-                redirect regularInstance
-            }
-            '*' { respond regularInstance, [status: OK] }
-        }
     }
 
-    @Transactional
-    def delete(Regular regularInstance) {
-
-        if (regularInstance == null) {
-            notFound()
-            return
-        }
-
-        regularInstance.delete flush: true
-
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'Regular.label', default: 'Regular'), regularInstance.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NO_CONTENT }
-        }
-    }
-
-    protected void notFound() {
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'regular.label', default: 'Regular'), params.id])
-                redirect action: "index", method: "GET"
-            }
-            '*' { render status: NOT_FOUND }
+    def delete(){
+        def deleteRegular = Regular.findById(params.id)
+        if(!deleteRegular.delete(flush: true)){
+            redirect(action: 'index')
+        }else{
+            redirect(action: 'index')
+            print(eachError(bean: "${deleteRegular}"))
         }
     }
 }
