@@ -11,6 +11,7 @@ class Regular extends User{
         postViews(min: 0, nullable: false)
         strikesNumber(min: 0, max: 3, nullable: false)
         startNumber(min: 0, max: 5, nullable: false)
+        post(nullable: true)
 
     }
 }
