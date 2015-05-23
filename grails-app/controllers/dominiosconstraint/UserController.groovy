@@ -1,7 +1,8 @@
 package dominiosconstraint
 
 class UserController {
-
+    def beforeInterceptor = {println "Se va a ejecutado la acción ${actionName}"}
+    def afterInterceptor = {println "Se ha ejecutado la acción ${actionName}"}
     def index(){
 
     }

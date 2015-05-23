@@ -15,7 +15,7 @@
 <body>
     <div class="col-lg-offset-2 col-lg-8 text-center ">
         <h2>Lo sentimos la pagina solicitada no existe</h2>
-        <img src="http://placehold.it/800x800" class="img-responsive text-center">
+        <img src="${resource(dir: 'images', file: 'pacman.png')}" class="img-responsive text-center">
     </div>
 </body>
 </html>

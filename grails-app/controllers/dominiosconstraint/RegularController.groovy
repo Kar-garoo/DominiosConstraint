@@ -2,6 +2,8 @@ package dominiosconstraint
 
 
 class RegularController {
+    def beforeInterceptor = {println "Se va a ejecutado la acción ${actionName}"}
+    def afterInterceptor = {println "Se ha ejecutado la acción ${actionName}"}
     def show(){
         def regularShow = Regular.findById(params.id)
         [regularShow:regularShow]

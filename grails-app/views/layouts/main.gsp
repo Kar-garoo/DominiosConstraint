@@ -11,7 +11,7 @@
         <div class="row" style="background-color: skyblue;" role="contentinfo">
             <div class="col-md-2">
                 <a href="/DominiosConstraint/">
-                <img src="http://placehold.it/300x300" class="img-responsive">
+                <img src="${resource(dir: 'images', file: 'forum.png')}" class="img-responsive">
                 </a>
             </div>
         </div>

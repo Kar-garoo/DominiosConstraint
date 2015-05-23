@@ -3,6 +3,8 @@ package dominiosconstraint
 
 
 class PostController {
+    def beforeInterceptor = {println "Se va a ejecutado la acción ${actionName}"}
+    def afterInterceptor = {println "Se ha ejecutado la acción ${actionName}"}
     def rate(){
         def postShow = Post.findById(params.id)
         postShow.rate++

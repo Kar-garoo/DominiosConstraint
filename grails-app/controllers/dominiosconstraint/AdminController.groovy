@@ -2,6 +2,9 @@ package dominiosconstraint
 
 class AdminController {
 
+    def beforeInterceptor = {println "Se va a ejecutado la acción ${actionName}"}
+    def afterInterceptor = {println "Se ha ejecutado la acción ${actionName}"}
+
     def index(){
         render(view:'read')
     }
