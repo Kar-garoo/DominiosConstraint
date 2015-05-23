@@ -12,6 +12,7 @@
   <title>Index</title>
 </head>
 <body>
+<h1>Admin</h1>
 <g:link action="create">Create</g:link>
 <ul>
     <g:each in="${dominiosconstraint.Admin.list()}">

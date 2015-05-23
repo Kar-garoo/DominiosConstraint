@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <div class="col-lg-offset-4 col-lg-8">
+    <div class="col-lg-offset-2 col-lg-8 text-center ">
         <h2>Lo sentimos la pagina solicitada no existe</h2>
-        <img src="http://placehold.it/600x600" class="img-responsive">
+        <img src="http://placehold.it/800x800" class="img-responsive text-center">
     </div>
 </body>
 </html>

@@ -31,4 +31,8 @@ class UserController {
         }
     }
 
+    def userTipe(){
+
+    }
+
 }

@@ -12,6 +12,7 @@
   <title></title>
 </head>
 <body>
+<h1>Regular</h1>
 <g:link action="create">Create</g:link>
 <ul>
     <g:each in="${dominiosconstraint.Regular.list()}">

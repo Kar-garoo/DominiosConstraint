@@ -66,4 +66,9 @@ class RegularController {
             print(eachError(bean: "${deleteRegular}"))
         }
     }
+
+    def profile(){
+        def regular = Regular.findByUsername(session.username)
+        [regular:regular]
+    }
 }

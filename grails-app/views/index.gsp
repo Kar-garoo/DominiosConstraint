@@ -15,7 +15,7 @@
                 Foro
             </li>
         </a>
-        <a href="${createLink(controller: 'user',action: 'read')}"
+        <a href="${createLink(controller: 'user',action: 'userTipe')}"
             <li class="list-group-item">
                 Usuarios
             </li>
@@ -56,17 +56,25 @@
         </g:else>
     </div>
     <div class="col-md-3">
+
         <h3>Foros mas comentados</h3>
         <g:set var="numberForum" value="${0}"></g:set>
         <g:set var="forumList" value="${dominiosconstraint.Forum.list().sort{it.post}.reverse()}"></g:set>
-        <ul class="list-group">
-            <g:while test="${numberForum < 10}">
-                <li class="list-group-item">
-                    ${forumList.get(numberForum).name}
-                </li>
-                <%numberForum++%>
-            </g:while>
-        </ul>
+        <g:if test="${forumList.size()!=0}">
+            <ul class="list-group">
+                <g:while test="${numberForum < 10}">
+                    <li class="list-group-item">
+                        ${forumList.get(numberForum).name}
+                    </li>
+                    <%numberForum++%>
+                </g:while>
+            </ul>
+        </g:if>
+        <g:else>
+            <ul class="list-group">
+                <li class="list-group-item"> No hay foros</li>
+            </ul>
+        </g:else>
     </div>
 </body>
 </html>

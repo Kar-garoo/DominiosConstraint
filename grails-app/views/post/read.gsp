@@ -12,6 +12,7 @@
   <title></title>
 </head>
 <body>
+<h1>Post</h1>
 <g:link action="create">Create</g:link>
 <ul>
     <g:each in="${dominiosconstraint.Post.list()}">
