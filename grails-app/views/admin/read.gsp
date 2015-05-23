@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="layout" content="main">
-  <title></title>
+  <title>Index</title>
 </head>
 <body>
 <g:link action="create">Create</g:link>

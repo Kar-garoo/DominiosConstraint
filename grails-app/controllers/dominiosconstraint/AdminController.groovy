@@ -51,6 +51,7 @@ class AdminController {
 
     }
 
+
     def delete(){
         def deleteAdmin = Admin.findById(params.id)
         if(!deleteAdmin.delete(flush: true)){
@@ -59,6 +60,11 @@ class AdminController {
             redirect(action: 'index')
             print(eachError(bean: "${deleteAdmin}"))
         }
+    }
+
+    def profile(){
+        def admin = Admin.findByUsername(session.username)
+        [admin:admin]
     }
 
 }
