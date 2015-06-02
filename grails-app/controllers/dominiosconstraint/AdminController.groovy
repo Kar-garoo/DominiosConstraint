@@ -19,6 +19,7 @@ class AdminController {
     def createLogic(){
 
         def newAdmin = new Admin(params)
+        newAdmin.password = newAdmin.password.encodeAsMD5()
 
         if(!newAdmin.save(flush: true)){
             render(view:'create',model:[admin:newAdmin])

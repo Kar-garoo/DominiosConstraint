@@ -1,6 +1,8 @@
 package dominiosconstraint
 
 class UserController {
+    def BuscarService
+    def LoginService
     def beforeInterceptor = {println "Se va a ejecutado la acción ${actionName}"}
     def afterInterceptor = {println "Se ha ejecutado la acción ${actionName}"}
     def index(){
@@ -16,6 +18,7 @@ class UserController {
             def regular = Regular.findByUsername(params.username)
             def admin = Admin.findByUsername(params.username)
             if(regular){
+
                 if(user.password == params.password){
                     redirect(controller: 'regular',action: 'profile')
                 }

@@ -11,6 +11,7 @@ class RegularController {
     }
     def index(){
         render(view:'read')
+
     }
     def read(){
         ['regularInstance':Regular.list()]
@@ -23,6 +24,7 @@ class RegularController {
     def createLogic(){
 
         def newRegular = new Regular(params)
+        newRegular.password = newRegular.password.encodeAsMD5()
 
         if(!newRegular.save(flush: true)){
             render(view:'create',model:[regular:newRegular])
