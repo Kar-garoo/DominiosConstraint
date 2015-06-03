@@ -26,6 +26,7 @@
                 <li class="list-group-item">LOGIN</li>
                 </a>
             </div>
+
         </div>
         <br style="background-color: cornflowerblue;">
         <div class="row" style="background-color: powderblue;" role="contentinfo">

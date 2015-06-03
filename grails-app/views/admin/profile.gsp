@@ -23,7 +23,7 @@
         <li class="list-group-item">Mis Post</li>
     </div>
     <div class="col-md-2">
-        <a href="${createLink(controller: 'user', action: 'logIn')}">
+        <a href="${createLink(controller: 'user', action: 'logOut')}">
             <li class="list-group-item">LogOut</li>
         </a>
     </div>

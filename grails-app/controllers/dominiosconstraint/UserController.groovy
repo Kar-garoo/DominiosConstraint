@@ -8,31 +8,48 @@ class UserController {
     def index(){
 
     }
-    def logIn(){
+
+    def logIn() {
 
     }
     def logInLogic(){
-        def user = User.findByUsername(params.username)
 
-        if(user){
-            def regular = Regular.findByUsername(params.username)
-            def admin = Admin.findByUsername(params.username)
-            if(regular){
-
-                if(user.password == params.password){
-                    redirect(controller: 'regular',action: 'profile')
-                }
-            }
-            if(admin){
-                if(user.password == params.password){
-                    session["username"] = params.username
-                    redirect(controller: 'admin',action: 'profile')
-                }
+        if(session.authStatus){
+            redirect(controller: 'regular', action: 'profile')
+        }else if(params.username != null && params.password != null){
+            if(LoginService.login(session, params)== null) {
+                flash.message = "Login error"
+                render(view: 'logIn')
+            }else{
+                session['authStatus'] = true
+                redirect(controller: 'regular',action: 'profile')
             }
         }else{
-            flash.message = "Login error"
             render(view: 'logIn')
         }
+
+
+
+    }
+    def logOut(){
+        if(LoginService.logout(session) == null){
+            redirect(controller: 'user', action: 'logIn')
+        }else{
+            session['authStatus'] = false
+            redirect(controller: 'user', action: 'logIn')
+        }
+
+    }
+
+    def buscar( ){
+
+    }
+
+    def buscarLogic( ){
+        def user = BuscarService.buscarUsuarios(params)
+        render(view: 'mostrarBusqueda', model: [user:user])
+
+
     }
 
     def userTipe(){

@@ -13,8 +13,8 @@ class User {
         lastname(blank:false, size:3..50)
         age(nullable: false, min:13)
         username(blank:false, unique:true )
-        password(blank:false, minSize: 8, matches: /([a-z]+)/)
-        //password(blank:false, minSize: 8, matches: /[[a-z]+[A-Z]+[0-9]+]+/)
+        password(blank:false, minSize: 8)
+        //password(blank:false, minSize: 8, matches: /([a-z]+)/)
     }
     static mapping = {
         tablePerHierarchy true

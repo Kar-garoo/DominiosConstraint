@@ -62,4 +62,15 @@ class ForumController {
             print(eachError(bean: "${deleteForum}"))
         }
     }
+
+    def buscar( ){
+
+    }
+
+    def buscarLogic( ){
+        def forum = BuscarService.buscarForos(params)
+        render(view: 'mostrarBusqueda', model: [forum:forum])
+
+
+    }
 }

@@ -30,6 +30,19 @@
                 Archivos
             </li>
         </a>
+
+        <a href="${createLink(controller: 'user',action: 'buscar')}"
+            <li class="list-group-item">
+                Buscar
+            </li>
+        </a>
+
+        <a href="${createLink(controller: 'forum',action: 'buscar')}"
+            <li class="list-group-item">
+                Buscar Foro
+            </li>
+        </a>
+
         </ul>
     </div>
 

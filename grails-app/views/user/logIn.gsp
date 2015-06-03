@@ -1,9 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: sergioalejandrodiazpinilla
-  Date: 22/05/15
-  Time: 6:37 PM
---%>
+
 
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
